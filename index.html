@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mapendo SARL</title>
+</head>
+
+<body>
+    <main>
+        <div class="content listes">
+            <table class="ui celled table">
+                <thead>
+                    <tr>
+                        <th>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Nom</font>
+                            </font>
+                        </th>
+                        <th>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Prenom</font>
+                            </font>
+                        </th>
+                        <th>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Email</font>
+                            </font>
+                        </th>
+                        <th>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Age</font>
+                            </font>
+                        </th>
+                        <th>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Poste</font>
+                            </font>
+                        </th>
+                        <th>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Telephone</font>
+                            </font>
+                        </th>
+                        <th>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Statut marital</font>
+                            </font>
+                        </th>
+                        <th>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Pays d'origine</font>
+                            </font>
+                        </th>
+                        <th>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Modifier</font>
+                            </font>
+                        </th>
+
+                        <th>
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Supprimer</font>
+                            </font>
+                        </th>
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="content formulaire">
+            <form class="ui form">
+                <div class="two fields">
+                    <div class="field">
+                        <label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nom</font></font></label>
+                        <input id="nom" name="nom" type="text" value="">
+                        <span class="erreur" id="erreurNom"></span>
+                    </div>
+                    <div class="field">
+                        <label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Prenom</font></font></label>
+                        <input id="prenom" name="prenom" type="text" value="">
+                        <span class="erreur" id="erreurPrenom"></span>
+                    </div>
+                </div>
+                <div class="two fields">
+                    <div class="field">
+                        <label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Email</font></font></label>
+                        <input id="email" name="email" type="text" value="">
+                        <span class="erreur" id="erreurEmail"></span>
+                    </div>
+                    <div class="field">
+                        <label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Age</font></font></label>
+                        <input id="age" name="Age" type="text" value="">
+                    </div>
+                </div>
+                <div class="two fields">
+                    <div class="field">
+                        <label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Poste</font></font></label>
+                        <input id="poste" name="poste" type="text" value="">
+                        <span class="erreur" id="erreurPoste"></span>
+                    </div>
+                    <div class="field">
+                        <label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Telephone</font></font></label>
+                        <input id="telephone" name="telephone" type="text" value="">
+                        <span class="erreur" id="erreurTelephone"></span>
+                    </div>
+                </div>
+                <div class="two fields">
+                    <div class="field">
+                        <label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Status Marital</font></font></label>
+                        <input id="statutMarital" name="statutMarital" type="text" value="">
+                        <span class="erreur" id="erreurStatutMarital"></span>
+                    </div>
+                    <div class="field">
+                        <label><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pays d'origine</font></font></label>
+                        <input id="paysOrigine" name="paysOrigine" type="text" value="">
+                        <span class="erreur" id="erreurPaysOrigine"></span>
+                    </div>
+                </div>
+                <div class="ui submit button">
+                    <font style="vertical-align: inherit;">
+                        <font id="valider" style="vertical-align: inherit;">Ajouter</font>
+                    </font>
+
+                </div>
+                <div class="ui error message"></div>
+            </form>
+        </div>
+
+    </main>
+
+
+    <script src="user.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
